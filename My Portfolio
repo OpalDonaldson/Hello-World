@@ -1,0 +1,143 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+
+<head>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <title>Build a Personal Portfolio Webpage</title>
+</head>
+<style>
+body {
+  position: relative;
+  background-color: #CCCCCC;
+}
+
+h1 {
+  text-align: center;
+}
+
+#About {
+  padding-top: 70px;
+  height: 30%;
+  color: #FFFFFF;
+  background-image: url("http://www.grantsphotography.co.uk/image/data/Purple_Yellow_Iris.jpg");
+}
+
+#Portfolio {
+  padding-top: 50px;
+  height: 30%;
+  color: #ffffff;
+  background-color: #8F6CC8;
+ }
+
+#contact {
+  padding-top: 50px;
+  height: 30%;
+  color: #ffffff;
+  background-color: #8F6CC8;
+}
+
+#foot-note {
+  padding-top: 50px;
+  padding-bottom: 2%;
+  height: 10%;
+  color: #31B0D5;
+  background-color: white;
+}
+
+html {
+  padding-right: 5%;
+  padding-left: 5%;}
+  .btn{
+    padding-bottm:2%;
+  }
+
+</style>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+           <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>       </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav" style="float: right">
+            <a class="navbar-brand" style="font-family:Lobster" href="#">Opal Donaldson</a>
+        </div>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav" style="float: right">
+            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#About"><i class="fa fa-info"></i> About</a></li>
+            <li><a href="#Portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+            <li> <a href="#contact"><i class="fa fa-envelope-o"></i> Contact Me</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+  </nav>
+  <div id="About" class="container-fluid">
+    <h1 style="font-family:Lobster">About</h1>
+
+    <p><img src="https://lh3.googleusercontent.com/cIQ8qU5oPMLIxoLLRZV8Qss88-fLhdXSUp_K44uwBh8pbCfadLV6bhdJvHyJkD5ET26ujw=s85" style="width:170px;height:160px;  border-radius: 90px; float:left;"></p><br>
+    <h3 style="font-family: arial; text-align:center;">My name is Opal Donaldson and I am a Front End Developer with skills to create and design Webpages using HTML, CSS, Bootstrap and JavaScripts. I also design and create other things other than websites.These include; invitations, business cards, flyers, posters and Banners. <br></br>
+  You can check out some of my work below in my portfolio.</h3>
+  </div>
+
+  <div id="Portfolio" class="container-fluid">
+    <h1 style="font-family:Lobster">Portfolio</h1>
+   <div class="row">
+     <div class="col-xs-12" align="center">
+    <img style="border-radius: 5%;" src="http://www.justukfreebies.co.uk/wp-content/uploads/coming-soon-simplistic.png" class="img-responsive">
+    </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div id="contact" style="font-family:Lobster" class="container-fluid">
+    <h1>Contact Me</h1>
+
+    <h4 style="font-family: Arial;">Please enter your details in the form below with a breif message of what you would like me to help you with. I will most likely respond within the day or 24 hours.</h4>
+    <form>
+      <div class="row">
+        <div class="col-xs-6">
+          <h5 style="font-family: Arial;">First name</h5> <input type="text" class="form-control" name="firstname">
+          <h5 style="font-family: Arial;">Last name</h5>
+          <input type="text" class="form-control" name="lastname">
+          <h5 style="font-family: Arial;">Email Address</h5>
+          <input type="text" class="form-control" name="Email Address">
+          <h5 style="font-family: Arial;">Phone</h5>
+          <input type="text" class="form-control" name="Phone">
+          <h5 style="font-family: Arial;">Message</h5><textarea class="form-control" text " placeholder="type your message here.... " rows="3 "></textarea></div></div> <br>
+            <div>
+            <button class="btn btn-default btn-send " type="submit" style="color: black;"><i class="fa fa-paper-plane "></i> Submit</button>
+</div>
+ </form>
+<div align="center " id="foot-note ">
+<h4 align="center " style="font-family:Lobster ">You can also find me on:</h4><br>
+      <a href="https://www.facebook.com/alicia.donaldson.35 " target="blank ">
+        <button class="btn btn-info active " type="submit "><i class="fa fa-facebook-official "> </i>
+           Facebook</button></a>
+      <a href="https://github.com/OpalDonaldson " target="blank " <button class="btn btn-default active " type="submit "><i class="fa fa-github "> </i>
+          Github</button></a>
+      <a href="https://twitter.com/OpalAlicia_D " target="blank " <button class="btn btn-info active " type="submit "><i class="fa fa-twitter "> </i>
+  Twitter</button></a>
+  <a href="http://codepen.io/Opal/ " target="blank " <button class="btn btn-default active " type="submit "><i class="fa fa-codepen "> </i>
+  Codepen</button></a>
+<a href="https://www.linkedin.com/in/opal-donaldson-5754b2114?trk=nav_responsive_tab_profile_pic " target="blank " <button class="btn btn-info active " type="submit "><i class="fa fa-linkedin-square "> </i>
+ LinkedIn</button></a>
+     </div>
+    </body>
+ <div id="footer-note " class="container-fluid " style="float:right "">
+          <footer><i class="fa fa-copyright">
+  <p>Created by: Opal Donaldson</p></i>
+          </footer>
+
+</html>
