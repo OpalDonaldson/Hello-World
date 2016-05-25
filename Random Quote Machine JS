@@ -1,0 +1,18 @@
+var quote = new Array()
+quote[0] = 'this is first quote'
+quote[1] = 'this is second quote'
+quote[2] = 'this is third quote'
+quote[3] = 'this is fourth quote'
+quote[4] = 'this is fifth quote'
+quote[5] = 'this is sixth quote'
+quote[6] = 'this is seventh quote'
+quote[7] = 'this is eigth quote'
+quote[9] = 'this is nine quote'
+quote[10] = 'this is tenth quote'
+
+$(document).ready(function() {
+  $("#newQuote").on("click", function() {
+    var randomquote = Math.floor(Math.random() * (quote.length - ""));
+    $(".Quote").html(quote[randomquote]);
+  });
+})
